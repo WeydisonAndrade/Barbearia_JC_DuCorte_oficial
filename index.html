@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JC DuCorte - Barbearia Premium</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header fixo com navegação principal e CTA de agendamento -->
+    <header>
+      <div class="header-inner">
+        <a href="#topo" class="brand">
+          <div class="brand-symbol">JC</div>
+          <div class="brand-text">
+            <span class="brand-name">JC DuCorte</span>
+            <span class="brand-subtitle">Barbearia Premium</span>
+          </div>
+        </a>
+
+        <!-- Navegação principal com menu responsivo -->
+        <nav class="main-nav" aria-label="Navegação principal">
+          <button
+            class="nav-toggle"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="main-menu"
+            type="button"
+          >
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+
+          <ul id="main-menu" class="nav-list">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#profissionais">Profissionais</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-cta">
+          <a
+            href="https://wa.me/5500000000000?text=Quero%20agendar%20um%20hor%C3%A1rio%20na%20JC%20DuCorte"
+            class="btn-outline"
+          >
+            Agendar horário
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="topo">
+      <!-- Hero / Seção de destaque com slogan e CTA principal -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-heading">
+              <div class="pill-tag">
+                <span class="pill-tag-dot"></span>
+                Desde 2015 entregando estilo
+              </div>
+
+              <h1 id="hero-title" class="hero-title">
+                <span>Estilo, precisão</span>
+                <span>e <strong>atitude</strong> em</span>
+                <span>cada corte.</span>
+              </h1>
+
+              <p class="hero-slogan">
+                Na <strong>JC DuCorte</strong> cada detalhe importa. Um ambiente pensado para quem valoriza
+                uma experiência de barbearia premium, com profissionais que respiram arte, cuidado e
+                autenticidade.
+              </p>
+
+              <div class="hero-actions">
+                <a
+                  href="https://wa.me/5500000000000?text=Quero%20agendar%20um%20hor%C3%A1rio%20na%20JC%20DuCorte"
+                  class="btn-primary"
+                >
+                  Agendar horário
+                </a>
+
+                <a href="#planos" class="btn-outline"> Ver planos mensais </a>
+              </div>
+
+              <div class="hero-badges">
+                <span class="hero-badge">
+                  <span class="hero-badge-dot"></span>
+                  Barbearia com horário marcado
+                </span>
+                <span class="hero-badge"> Cortes autorais e clássicos </span>
+              </div>
+            </div>
+
+            <div class="hero-media" aria-hidden="true">
+              <div class="hero-card">
+                <div class="hero-card-inner">
+                  <div class="hero-accent-ring"></div>
+
+                  <div class="hero-badge-floating">
+                    Agenda de hoje
+                    <span class="hero-badge-pill">Poucas vagas</span>
+                  </div>
+
+                  <div class="hero-portrait">
+                    <div class="hero-portrait-figure"></div>
+                    <div class="hero-portrait-floor"></div>
+                  </div>
+
+                  <div class="hero-stats">
+                    <div class="hero-stat">
+                      <span class="hero-stat-label">Clientes satisfeitos</span>
+                      <span class="hero-stat-value">+2.500</span>
+                    </div>
+                    <div class="hero-stat">
+                      <span class="hero-stat-label">Anos de experiência</span>
+                      <span class="hero-stat-value">+8</span>
+                    </div>
+                    <div class="hero-stat">
+                      <span class="hero-stat-label">Avaliação média</span>
+                      <span class="hero-stat-value">4.9/5</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Sobre a barbearia com texto institucional -->
+      <section id="sobre" class="section" aria-labelledby="sobre-title">
+        <div class="container">
+          <header class="section-header">
+            <p class="section-kicker">Sobre a JC DuCorte</p>
+            <h2 id="sobre-title" class="section-title">Mais que corte, uma experiência</h2>
+            <p class="section-description">
+              A JC DuCorte nasceu para quem leva estilo a sério. Um espaço pensado para relaxar, renovar a
+              autoestima e sair pronto para encarar qualquer desafio, com a confiança de um corte bem feito.
+            </p>
+          </header>
+
+          <div class="about">
+            <article class="about-card">
+              <h3 class="about-title">Barbearia de atitude, com padrão premium</h3>
+              <p class="about-text">
+                Aqui o ritual começa muito antes da tesoura. Do atendimento ao acabamento final, cada etapa
+                é cuidada com atenção, técnica e personalidade. Unimos o clássico ao moderno para entregar
+                cortes precisos, barbas desenhadas e um visual que traduz quem você é.
+              </p>
+
+              <div class="about-highlight" aria-label="Destaques da barbearia">
+                <span>Ambiente exclusivo e climatizado</span>
+                <span>Profissionais especializados</span>
+                <span>Atendimento sob agendamento</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Profissionais com cards clicáveis de barbeiros -->
+      <section id="profissionais" class="section" aria-labelledby="profissionais-title">
+        <div class="container">
+          <header class="section-header">
+            <p class="section-kicker">Nosso time</p>
+            <h2 id="profissionais-title" class="section-title">Profissionais</h2>
+            <p class="section-description">
+              Um time que domina do clássico ao moderno, pronto para ouvir o que você busca e sugerir o
+              melhor para o seu estilo.
+            </p>
+          </header>
+
+          <div class="card-grid" aria-label="Profissionais da barbearia">
+            <!-- Card João Corte -->
+            <a
+              href="https://wa.me/5500000000000?text=Quero%20fazer%20um%20corte%20com%20Jo%C3%A3o%20Corte"
+              class="professional-card-link"
+            >
+              <article class="card professional-card">
+                <div class="professional-avatar">
+                  <div class="professional-avatar-inner">
+                    <img
+                      src="https://images.pexels.com/photos/3998428/pexels-photo-3998428.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      alt="Foto do barbeiro João Corte"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+
+                <div class="professional-info">
+                  <h3 class="professional-name">João Corte</h3>
+                  <p class="professional-specialty">Especialista em fade</p>
+                  <p class="professional-description">
+                    Fade limpo, transições precisas e um acabamento que valoriza o formato do seu rosto.
+                  </p>
+
+                  <div class="professional-actions">
+                    <button type="button" class="btn-contact">
+                      <span class="icon">w</span>
+                      Entrar em contato
+                    </button>
+                  </div>
+                </div>
+              </article>
+            </a>
+
+            <!-- Card Marcos Navalha -->
+            <a
+              href="https://wa.me/5500000000000?text=Quero%20fazer%20barba%20e%20acabamento%20com%20Marcos%20Navalha"
+              class="professional-card-link"
+            >
+              <article class="card professional-card">
+                <div class="professional-avatar">
+                  <div class="professional-avatar-inner">
+                    <img
+                      src="https://images.pexels.com/photos/3993447/pexels-photo-3993447.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      alt="Foto do barbeiro Marcos Navalha"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+
+                <div class="professional-info">
+                  <h3 class="professional-name">Marcos Navalha</h3>
+                  <p class="professional-specialty">Barba e acabamento</p>
+                  <p class="professional-description">
+                    Linhas definidas, desenho preciso de barba e aquele acabamento que faz toda diferença.
+                  </p>
+
+                  <div class="professional-actions">
+                    <button type="button" class="btn-contact">
+                      <span class="icon">w</span>
+                      Entrar em contato
+                    </button>
+                  </div>
+                </div>
+              </article>
+            </a>
+
+            <!-- Card Rafael Style -->
+            <a
+              href="https://wa.me/5500000000000?text=Quero%20um%20corte%20moderno%20com%20Rafael%20Style"
+              class="professional-card-link"
+            >
+              <article class="card professional-card">
+                <div class="professional-avatar">
+                  <div class="professional-avatar-inner">
+                    <img
+                      src="https://images.pexels.com/photos/3992877/pexels-photo-3992877.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      alt="Foto do barbeiro Rafael Style"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+
+                <div class="professional-info">
+                  <h3 class="professional-name">Rafael Style</h3>
+                  <p class="professional-specialty">Corte moderno</p>
+                  <p class="professional-description">
+                    Referências atuais, cortes desconectados e estilo pensado para o seu dia a dia.
+                  </p>
+
+                  <div class="professional-actions">
+                    <button type="button" class="btn-contact">
+                      <span class="icon">w</span>
+                      Entrar em contato
+                    </button>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Planos Mensais com cards de assinatura -->
+      <section id="planos" class="section" aria-labelledby="planos-title">
+        <div class="container">
+          <header class="section-header">
+            <p class="section-kicker">Planos mensais</p>
+            <h2 id="planos-title" class="section-title">Assinaturas JC DuCorte</h2>
+            <p class="section-description">
+              Escolha o plano que combina com o seu ritmo. Pague um valor fixo por mês e mantenha o visual em
+              dia o ano inteiro.
+            </p>
+          </header>
+
+          <div class="card-grid plans" aria-label="Planos mensais da barbearia">
+            <!-- Plano Corte -->
+            <article class="card plan-card">
+              <div class="plan-label">Essencial</div>
+              <h3 class="plan-name">Plano Corte</h3>
+              <p class="plan-price">
+                R$ 129<span>/mês</span>
+              </p>
+              <p class="plan-description">Para quem gosta de manter o corte sempre alinhado.</p>
+
+              <ul class="plan-benefits">
+                <li>
+                  <span class="bullet">✓</span>
+                  Cortes ilimitados no mês
+                </li>
+                <li>
+                  <span class="bullet">✓</span>
+                  Agendamento prioritário em dias de semana
+                </li>
+                <li>
+                  <span class="bullet">✓</span>
+                  Lembrete automático de manutenção
+                </li>
+              </ul>
+
+              <div class="plan-cta">
+                <a
+                  href="https://wa.me/5500000000000?text=Quero%20assinar%20o%20Plano%20Corte%20da%20JC%20DuCorte"
+                  class="btn-primary btn-plan"
+                >
+                  Assinar plano
+                </a>
+              </div>
+            </article>
+
+            <!-- Plano Corte + Barba -->
+            <article class="card plan-card featured">
+              <div class="plan-label">Mais escolhido</div>
+              <h3 class="plan-name">Plano Corte + Barba</h3>
+              <p class="plan-price">
+                R$ 189<span>/mês</span>
+              </p>
+              <p class="plan-description">O combo perfeito para quem não abre mão da barba alinhada.</p>
+
+              <ul class="plan-benefits">
+                <li>
+                  <span class="bullet">✓</span>
+                  Cortes e barba ilimitados no mês
+                </li>
+                <li>
+                  <span class="bullet">✓</span>
+                  Agendamento prioritário inclusive aos sábados
+                </li>
+                <li>
+                  <span class="bullet">✓</span>
+                  Produtos de finalização premium incluídos
+                </li>
+              </ul>
+
+              <div class="plan-cta">
+                <a
+                  href="https://wa.me/5500000000000?text=Quero%20assinar%20o%20Plano%20Corte%20%2B%20Barba%20da%20JC%20DuCorte"
+                  class="btn-primary btn-plan"
+                >
+                  Assinar plano
+                </a>
+              </div>
+            </article>
+
+            <!-- Plano Premium -->
+            <article class="card plan-card">
+              <div class="plan-label">Premium</div>
+              <h3 class="plan-name">Plano Premium</h3>
+              <p class="plan-price">
+                R$ 239<span>/mês</span>
+              </p>
+              <p class="plan-description">
+                A experiência completa para manter cada detalhe do visual em ordem.
+              </p>
+
+              <ul class="plan-benefits">
+                <li>
+                  <span class="bullet">✓</span>
+                  Corte, barba e sobrancelha ilimitados
+                </li>
+                <li>
+                  <span class="bullet">✓</span>
+                  Horário VIP em agenda exclusiva
+                </li>
+                <li>
+                  <span class="bullet">✓</span>
+                  Bebida cortesia a cada visita
+                </li>
+              </ul>
+
+              <div class="plan-cta">
+                <a
+                  href="https://wa.me/5500000000000?text=Quero%20assinar%20o%20Plano%20Premium%20da%20JC%20DuCorte"
+                  class="btn-primary btn-plan"
+                >
+                  Assinar plano
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Contato com informações completas e formas de comunicação -->
+      <section id="contato" class="section" aria-labelledby="contato-title">
+        <div class="container">
+          <header class="section-header">
+            <p class="section-kicker">Contato</p>
+            <h2 id="contato-title" class="section-title">Chegue mais perto da sua nova versão</h2>
+            <p class="section-description">
+              Fale com a gente para tirar dúvidas, agendar um horário ou saber mais sobre os planos
+              mensais.
+            </p>
+          </header>
+
+          <div class="contact">
+            <article class="contact-card">
+              <div class="contact-grid">
+                <div class="contact-item">
+                  <div class="contact-icon">📍</div>
+                  <div>
+                    <p class="contact-content-title">Endereço</p>
+                    <p class="contact-content-text">
+                      Rua Exemplo, 123 - Bairro Central<br />
+                      Sua Cidade - UF
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">📞</div>
+                  <div>
+                    <p class="contact-content-title">Telefone</p>
+                    <p class="contact-content-text">
+                      <a href="tel:+5500000000000">(00) 0000-0000</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">💬</div>
+                  <div>
+                    <p class="contact-content-title">WhatsApp</p>
+                    <p class="contact-content-text">
+                      <a
+                        href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20JC%20DuCorte"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        (00) 00000-0000
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">⏰</div>
+                  <div>
+                    <p class="contact-content-title">Horário de funcionamento</p>
+                    <p class="contact-content-text">
+                      Segunda a sexta: 10h às 20h<br />
+                      Sábado: 9h às 18h
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-actions">
+                <a
+                  href="https://wa.me/5500000000000?text=Quero%20agendar%20um%20hor%C3%A1rio%20na%20JC%20DuCorte"
+                  class="btn-primary"
+                >
+                  Agendar agora pelo WhatsApp
+                </a>
+                <a href="tel:+5500000000000" class="btn-outline"> Ligar para a barbearia </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer com nome da barbearia, redes sociais e copyright -->
+    <footer>
+      <div class="footer-inner">
+        <div>
+          <p class="footer-brand">JC DuCorte</p>
+          <p class="footer-copy">© <span id="year"></span> JC DuCorte. Todos os direitos reservados.</p>
+        </div>
+
+        <div>
+          <div class="footer-social" aria-label="Redes sociais da barbearia">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script simples para menu mobile e ano automático -->
+    <script>
+      const currentYearElement = document.getElementById("year");
+      if (currentYearElement) {
+        currentYearElement.textContent = new Date().getFullYear();
+      }
+
+      const nav = document.querySelector(".main-nav");
+      const toggle = document.querySelector(".nav-toggle");
+
+      if (nav && toggle) {
+        toggle.addEventListener("click", () => {
+          const isOpen = nav.classList.toggle("is-open");
+          toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+
+        nav.querySelectorAll(".nav-list a").forEach((link) => {
+          link.addEventListener("click", () => {
+            nav.classList.remove("is-open");
+            toggle.setAttribute("aria-expanded", "false");
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+
