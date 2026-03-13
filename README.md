@@ -1,6 +1,6 @@
-# JC DuCorte - Landing Page
+# JC Barbearia - Landing Page
 
-Landing page moderna e responsiva para a barbearia **JC DuCorte**, criada como parte do meu portfólio.
+Landing page moderna e responsiva para a barbearia **JC Barbearia**, criada como parte do meu portfólio.
 
 ## Tecnologias utilizadas
 
